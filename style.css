@@ -314,8 +314,10 @@ textarea {
   }
   .main_container {
     overflow-x: hidden;
+    background-color:pink;
   }
   .header {
+    background-color:white;
     position: relative;
     height: auto;
     flex-direction: column;

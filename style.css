@@ -439,10 +439,10 @@ textarea {
   }
 
   .form > button {
-    margin-left: 0;
+    margin-left: 110;
   }
   form input[type="text"] {
-    width: 70%;
+    width: 75%;
     padding: 8px;
   }
   textarea {

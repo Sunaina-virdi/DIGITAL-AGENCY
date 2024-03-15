@@ -416,6 +416,11 @@ textarea {
     margin: 2rem 0;
     background-position: center;
   }
+
+  .arrow {
+    margin-top: 1rem;
+    margin-left: 150px;
+  }
   .blog > h5 {
     margin-left: 15%;
   }

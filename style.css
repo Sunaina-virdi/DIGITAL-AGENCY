@@ -317,7 +317,7 @@ textarea {
     background-color:pink;
   }
   .header {
-    background-color:white;
+    background-color: white;
     position: relative;
     height: auto;
     flex-direction: column;

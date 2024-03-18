@@ -445,14 +445,14 @@ textarea {
   }
 
   .form > button {
-    margin-left: 130px;
+    margin-left: 110px;
   }
   form input[type="text"] {
-    width: 87%;
+    width: 75%;
     padding: 8px;
   }
   textarea {
-    width: 92%;
+    width: 80%;
     height: 40px;
   }
 }

@@ -50,8 +50,7 @@ a {
   font-size: large;
   color: rgb(5, 5, 104);
   text-decoration: none;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans";
 }
 .contact {
   padding-top: 20px;
@@ -76,7 +75,7 @@ button {
   background: linear-gradient(
     to bottom,
     rgb(197, 78, 124) 50%,
-    rgb(5, 5, 104)
+    rgb(5, 5, 104) 
   );
   background-size: 100% 200%;
   transition: background-position 0.5s;
@@ -202,6 +201,7 @@ button:hover {
 .card:hover {
   transform: scale(0.99);
   box-shadow: 5px 8px 16px 5px grey;
+
 }
 .portfolio > center {
   color: red;
@@ -267,7 +267,7 @@ button:hover {
   font-size: 2rem;
 }
 form input[type="text"] {
-  width: 400px;
+  width: 470px;
   padding: 8px;
   color: rgb(46, 46, 141);
   margin-right: 8px;
@@ -275,7 +275,7 @@ form input[type="text"] {
   background-color: aliceblue;
 }
 .form > button {
-  margin-left: 400px;
+  margin-left: 450px;
 }
 footer {
   text-align: center;
@@ -303,7 +303,7 @@ footer > h3 {
   gap: 38px;
 }
 textarea {
-  width: 67%;
+  width: 78%;
   height: 60px;
 }
 
@@ -315,7 +315,7 @@ textarea {
   }
   .main_container {
     overflow-x: hidden;
-    background-color:pink;
+    background-color: pink;
   }
   .header {
     background-color: white;
@@ -373,7 +373,10 @@ textarea {
     flex-direction: column;
     align-items: center;
   }
-
+  .arrow {
+    margin-top: 1rem;
+    margin-left: 150px;
+  }
   .box1 {
     width: 80%;
     margin: 1rem 0;
@@ -416,11 +419,6 @@ textarea {
     margin: 2rem 0;
     background-position: center;
   }
-
-  .arrow {
-    margin-top: 0.7rem;
-    margin-left: 150px;
-  }
   .blog > h5 {
     margin-left: 15%;
   }
@@ -452,7 +450,7 @@ textarea {
     padding: 8px;
   }
   textarea {
-    width: 90%;
+    width: 80%;
     height: 40px;
   }
 }
